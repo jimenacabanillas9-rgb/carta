@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para ti, mi amor ♥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tipografías bonitas (NO cursivas) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --rosa: #f6c1cc;
+      --lila: #e6d9ff;
+      --crema: #fff6e5;
+      --verde: #d9f2e6;
+      --texto: #4a4a4a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, var(--lila), var(--crema));
+      color: var(--texto);
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--rosa), var(--lila));
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 25px;
+      padding: 40px;
+      margin-bottom: 50px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: #6a5acd;
+      margin-bottom: 25px;
+    }
+
+    .carta p {
+      line-height: 1.8;
+      margin-bottom: 18px;
+      font-size: 1.05rem;
+    }
+
+    /* Playlist */
+    .playlist {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .song {
+      background: linear-gradient(180deg, var(--crema), #ffffff);
+      border-radius: 18px;
+      padding: 18px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.95rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    }
+
+    /* Tabla */
+    .tabla {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+    }
+
+    .tabla th, .tabla td {
+      padding: 20px;
+      text-align: left;
+      border-radius: 15px;
+      vertical-align: top;
+    }
+
+    .tabla th {
+      background: var(--rosa);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+    }
+
+    .tabla td {
+      background: var(--verde);
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      background: var(--lila);
+      margin-top: 80px;
+    }
+
+    footer p {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Para ti, mi amor ♥</h1>
+  <p>Una pequeña página para recordarte cuánto te amo</p>
+</header>
+
+<section class="card carta">
+  <h2>Mi carta para ti</h2>
+  <p>
+    Desde que llegaste a mi vida, todo se volvió más suave, más tranquilo y más bonito.
+    Contigo entendí que el amor no es perfecto, pero sí sincero, constante y real.
+  </p>
+  <p>
+    Me encanta cómo somos juntos, cómo nos entendemos incluso sin palabras,
+    cómo hacemos de lo cotidiano algo especial. Gracias por ser mi lugar seguro.
+  </p>
+  <p>
+    Esta página es solo una pequeña forma de decirte que te amo,
+    que te elijo y que siempre quiero caminar a tu lado.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Canciones que te dedico ♥</h2>
+
+  <div class="playlist">
+    <div class="song">Because — Changbin & Felix</div>
+    <div class="song">You & I — One Direction</div>
+    <div class="song">18 — One Direction</div>
+    <div class="song">Little Things — One Direction</div>
+    <div class="song">Perfect — One Direction</div>
+    <div class="song">Quiéreme — Alejandro Fernández</div>
+    <div class="song">Deja que — Miguel Bosé</div>
+    <div class="song">Ocean Eyes — Billie Eilish</div>
+    <div class="song">Chica Cocodrilo — Hombres G</div>
+    <div class="song">Te Quiero — Hombres G</div>
+    <div class="song">Eres — Café Tacvba</div>
+    <div class="song">Bésame Mucho — Consuelo Velázquez</div>
+    <div class="song">Contigo — Joaquín Sabina</div>
+    <div class="song">Te Regalo — Carla Morrison</div>
+    <div class="song">Universo — Soy Luna OST</div>
+    <div class="song">Mi Persona Favorita — Alejandro Sanz</div>
+    <div class="song">Color esperanza — Diego Torres</div>
+    <div class="song">Por primera vez — Camilo</div>
+    <div class="song">Todo cambió — Camila</div>
+    <div class="song">Solo tú — Carlos Vives</div>
+    <div class="song">Hasta mi final — Il Divo</div>
+    <div class="song">Amor completo — Mon Laferte</div>
+    <div class="song">Creo en ti — Reik</div>
+    <div class="song">Disfruto — Carla Morrison</div>
+    <div class="song">Te vi — Miranda!</div>
+    <div class="song">Eres para mí — Julieta Venegas</div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Nosotros ♥</h2>
+
+  <table class="tabla">
+    <tr>
+      <th>Él</th>
+      <th>Yo</th>
+    </tr>
+    <tr>
+      <td>
+        Amoroso<br>
+        Paciente<br>
+        Guapo<br>
+        Detallista<br>
+        Inteligente<br>
+        Protector<br>
+        Divertido<br>
+        Mi persona favorita<br>
+        El mejor novio del mundo
+      </td>
+      <td>
+        autista
+      </td>
+    </tr>
+  </table>
+</section>
+
+<footer>
+  <p>Hecho con amor, solo para ti ♥</p>
+</footer>
+
+</body>
+</html>
